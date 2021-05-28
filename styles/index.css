@@ -86,4 +86,6 @@ a{
     width: 100%;
     padding-bottom: 10px;
 }
-
+#app-presentacion-desc-inicio, #app-presentacion-desc-mision, #app-presentacion-desc-vision{
+    text-align: center;
+}
