@@ -2,6 +2,7 @@ const boton = document.getElementById('boton')
 
 var nombre, materiaEspañol, materiaMatematicas, materiaIngles, materiaQuimica, materiaFisica
 
+var resMaterias = [resMatematicas, resEspañol, resIngles, resQuimica, resFisica]
 
 boton.addEventListener('click', () => {
 
@@ -48,6 +49,12 @@ boton.addEventListener('click', () => {
                 }
             ]
         }
-    }).then(res=>console.log(res))
+    })
+    .then(res => {
+        console.log(res)
+    })
+    .catch(error => console.log(error))
 })
+
+
 
