@@ -35,28 +35,25 @@
             <input type="text" class="app-form-input" id="Nombre">
 
             <label for="" class="app-form-label">Descripcion Español</label><br>
-            <textarea name="" id="" cols="30" rows="5" class="app-form-textarea" id="opinionEspañol"></textarea>
+            <input type="text" class="app-form-textarea" id="opinionEspañol"></input>
 
             <label for="" class="app-form-label">Descripcion Matematicas</label><br>
-            <textarea name="" id="" cols="30" rows="5" class="app-form-textarea" id="opinionMatematicas"></textarea>
+            <input type="text" class="app-form-textarea" id="opinionMatematicas"></input>
 
             <label for="" class="app-form-label">Descripcion Ingles</label><br>
-            <textarea name="" id="" cols="30" rows="5" class="app-form-textarea" id="opinionIngles"></textarea>
+            <input type="text" class="app-form-textarea" id="opinionIngles"></input>
 
             <label for="" class="app-form-label">Descripcion Quimica</label><br>
-            <textarea name="" id="" cols="30" rows="5" class="app-form-textarea" id="opinionQuimica"></textarea>
-
-            <label for="" class="app-form-label">Descripcion Fisica</label><br>
-            <textarea name="" id="" cols="30" rows="5" class="app-form-textarea" id="opinionFisica"></textarea>
+            <input type="text" class="app-form-textarea" id="opinionQuimica"></input>
 
             <input type="button" value="Enviar" class="app-form-submit" id="boton">
         </form>
-        <div class="app-respuesta" style="display: none;">
+        <div class="app-respuesta" id="app-respuesta-definitiva" style="display: none;">
             <h1  class="app-presentacion-tittle">Resultados: </h1>
-            <p class="app-presentacion-desc" >El resultado de su encuenta es: <span id="app-presentacion-positivo"> Materia te sientes mas cercano a ella; </span> <span id="app-presentacion-negativo">Materia  no te gusta mucho;</span> <span  id="app-presentacion-neutral">materia eres completamente neutral</span></p>
+            <p class="app-presentacion-desc" >El resultado de su encuenta es: <span id="app-presentacion-positivo"> </span> <span id="app-presentacion-negativo"> </span> <span  id="app-presentacion-neutral"> </span></p>
         </div>
     </div>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="./scripts/index.js"></script>
+    <script defer src="./scripts/index.js"></script>
 </body>
 </html>
