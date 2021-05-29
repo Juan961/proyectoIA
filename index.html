@@ -21,36 +21,48 @@
     <div class="app">
         <div class="app-presentacion">
             <h1 class="app-presentacion-tittle" id="app-presentacion-inicio">Inicio</h1>
-            <p class="app-presentacion-desc" id="app-presentacion-desc-inicio">Esta idea aparece tras pasar malos momentos en el colegio pensando que podriamos estudiar y se complica mas aun cuando el mismo sistema educativo no es capaz de ayudar directa y objetivamente a estos estudiantes. Por eso nace educare para ayudar a todos lo estudiantes a encontrar su pasion.</p>
+            <p class="app-presentacion-desc" id="app-presentacion-desc-inicio">Esta idea aparece tras pasar malos momentos en el colegio pensando que podríamos estudiar y se complica más aun cuando el mismo sistema educativo no es capaz de ayudar directa y objetivamente a estos estudiantes. Por eso nace educare para ayudar a todos los estudiantes a encontrar su pasión.</p>
             <h1 class="app-presentacion-tittle" id="app-presentacion-mision">Misión</h1>
             <p class="app-presentacion-desc" id="app-presentacion-desc-mision">Generar una plataforma que sea capaz de ayudar a cientos de estudiantes a tener un mejor plan de vida.</p>
             <h1 class="app-presentacion-tittle" id="app-presentacion-vision">Visión</h1>
-            <p class="app-presentacion-desc"id="app-presentacion-desc-vision">Mostrarnos para 2030 como la primera y mejor opcion de miles de estudiantes a nivel mundial para encontrar lo que verdaderamente los mueva a crecer profesionalmente.</p>
+            <p class="app-presentacion-desc"id="app-presentacion-desc-vision">Mostrarnos para 2030 como la primera y mejor opción de miles de estudiantes a nivel mundial para encontrar lo que verdaderamente los mueva a crecer profesionalmente.</p>
             <h1 class="app-presentacion-tittle" id="app-presentacion-test">Test de análisis de materias</h1>
-            <p class="app-presentacion-desc">Buen día, hoy usted realizará el text para saber cual la materia de mas interes de usted con IA, lo que tiene que hacer es llenar el formulario que tiene abajo y darle en el boton de "ENVIAR" para conseguir sus resultadosa. En cada descripcion procure ser lo mas especifico que pueda.</p>
+            <p class="app-presentacion-desc">Buen día, hoy usted realizará el test para saber cual es la materia de más interés de usted con IA, lo que tiene que hacer es llenar el formulario que tiene abajo y darle en el botón de "ENVIAR" para conseguir sus resultados. En cada descripción procure ser lo más específico que pueda. En el momento en que usted le da enviar <strong>la solicitud puede tardar un poco</strong> y <strong>sus resultados aparecerán mas abajo</strong>; En caso de que no se envíe, por favor <strong>revise que todos los campos del formulario estén llenos</strong>.</p>
         </div>
         <form action="" class="app-form">
 
             <label for="" class="app-form-label">Nombres</label>
             <input type="text" class="app-form-input" id="Nombre">
 
-            <label for="" class="app-form-label">Descripcion Español</label><br>
+            <label for="" class="app-form-label">Descripción Español</label><br>
             <input type="text" class="app-form-textarea" id="opinionEspañol"></input>
 
-            <label for="" class="app-form-label">Descripcion Matematicas</label><br>
+            <label for="" class="app-form-label">Descripción Matemáticas</label><br>
             <input type="text" class="app-form-textarea" id="opinionMatematicas"></input>
 
-            <label for="" class="app-form-label">Descripcion Ingles</label><br>
+            <label for="" class="app-form-label">Descripción Ingles</label><br>
             <input type="text" class="app-form-textarea" id="opinionIngles"></input>
 
-            <label for="" class="app-form-label">Descripcion Quimica</label><br>
+            <label for="" class="app-form-label">Descripción Química</label><br>
             <input type="text" class="app-form-textarea" id="opinionQuimica"></input>
+
+            <label for="" class="app-form-label">Descripción Física</label><br>
+            <input type="text" class="app-form-textarea" id="opinionFisica"></input>
+
+            <label for="" class="app-form-label">Descripción Educación Física</label><br>
+            <input type="text" class="app-form-textarea" id="opinionEduFisica"></input>
+
+            <label for="" class="app-form-label">Descripción Tecnología / Informática</label><br>
+            <input type="text" class="app-form-textarea" id="opinionTecno"></input>
+
+            <label for="" class="app-form-label">Descripcion Artes</label><br>
+            <input type="text" class="app-form-textarea" id="opinionArtes"></input>
 
             <input type="button" value="Enviar" class="app-form-submit" id="boton">
         </form>
         <div class="app-respuesta" id="app-respuesta-definitiva" style="display: none;">
             <h1  class="app-presentacion-tittle">Resultados: </h1>
-            <p class="app-presentacion-desc" >El resultado de su encuenta es: <span id="app-presentacion-positivo"> </span> <span id="app-presentacion-negativo"> </span> <span  id="app-presentacion-neutral"> </span></p>
+            <p class="app-presentacion-desc" >El resultado de su encuesta es: <strong>Materias positivas:</strong> <span id="app-presentacion-positivo"> </span>; <strong>Materias negativas:</strong> <span id="app-presentacion-negativo">  </span>; <strong>Materias neutrales: </strong> <span  id="app-presentacion-neutral"></span>. Muchas gracias por utilizar nuetros servicios. :)</p>
         </div>
     </div>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>

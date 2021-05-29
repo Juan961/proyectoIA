@@ -83,8 +83,25 @@ a{
 .app-form-textarea, .app-form-input, .app-form-label, .app-form-submit {
     display: block;
     width: 100%;
-    padding-top: 5px;
+    
 }
 #app-presentacion-desc-inicio, #app-presentacion-desc-mision, #app-presentacion-desc-vision{
     text-align: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+#opinionArtes{
+    margin-bottom: 20px;
+}
+
+#boton {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#Nombre{
+    margin-top: 10px;
 }

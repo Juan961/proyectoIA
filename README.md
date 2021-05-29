@@ -4,11 +4,11 @@
 
 *Este es el repositorio del equipo 30 para mostrar el prototipo propuesto al programa MagIA Juvenil*
 
-## Misiòn
+## Misión
 
 Generar una plataforma que sea capaz de ayudar a cientos de estudiantes a tener un mejor plan de vida.
 
-## Vision
+## Visión
 
 Mostrarnos para 2030 como la primera y mejor opcion de miles de estudiantes a nivel mundial para encontrar lo que verdaderamente los mueva a crecer profesionalmente.
 
@@ -19,3 +19,8 @@ Consiste en una plataforma la cual ayudara a los estudiantes de colegio a determ
 ## ¿Còmo funciona?
 
 En la pagina las personas que la utilizen pondran una serie de informacion sobre ciertas materias y usando la inteligencia artificial de Microsoft (Mas exactamente el analisis de texto con la funcionalidad de deteccion de sentimientos) se generara una serie de resultados los cuales le daran una aproximaciona estos sobre que es lo que realmente les gusta.
+
+
+## Aclaración
+
+*En este momento el prototipo se encuentra completamente funcional, en el momento en que magia juvenil quite la llave, lastimosamente no seguira funcionando*
