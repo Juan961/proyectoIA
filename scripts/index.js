@@ -1,8 +1,14 @@
 const boton = document.getElementById('boton')
 
+const respuesta = document.getElementsByClassName('app-respuesta')
+
+const mensajePositivo = document.getElementById('app-presentacion-positivo')
+const mensajeNegativo = document.getElementById('app-presentacion-negativo')
+const mensajeNeutral = document.getElementById('app-presentacion-neutral')
+
 var nombre, materiaEspañol, materiaMatematicas, materiaIngles, materiaQuimica, materiaFisica
 
-var resMaterias = [resMatematicas, resEspañol, resIngles, resQuimica, resFisica]
+var resEspañol, resMatematicas, resIngles, resQuimica, resFisica
 
 boton.addEventListener('click', () => {
 
@@ -49,9 +55,13 @@ boton.addEventListener('click', () => {
                 }
             ]
         }
-    })
-    .then(res => {
-        console.log(res)
+    }).then(res => {
+        console.log(res.data)
+        resEspañol = res.data[0]
+        resMatematicas = res.data[1]
+        resIngles = res.data[2]
+        resQuimica = res.data[3]
+        resFisica = res.data[4]
     })
     .catch(error => console.log(error))
 })
