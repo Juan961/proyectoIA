@@ -23,4 +23,4 @@ En la pagina las personas que la utilizen pondran una serie de informacion sobre
 
 ## Aclaración
 
-*En este momento el prototipo se encuentra completamente funcional, en el momento en que magia juvenil quite la llave, lastimosamente no seguira funcionando*
+*En este momento no funciona el proyecto debido a que caducó la llave para llevar a cabo el analisis*
