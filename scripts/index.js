@@ -1,6 +1,6 @@
 // Se agrega el evento "DOMContentLoaded" para que cargue primero los elementos del DOM y apartir de ellos que la IA los analice
 
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", () => {
 
     // Se le asgina un valor al boton para detectar cuando es presionado
 
@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             method:'POST',
             url:'https://servicioanalisistexto.cognitiveservices.azure.com/text/analytics/v3.0/sentiment',
             headers:{
-                'Ocp-Apim-Subscription-Key': '8b4c7829af844bc699425c01e131246a',
+                'Ocp-Apim-Subscription-Key': '',
                 'Content-Type': 'application/json'
             },
             data:{
