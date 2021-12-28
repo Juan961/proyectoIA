@@ -7,6 +7,10 @@ This is the repository of team 30 to show the prototype proposed to the MagIA Ju
 ## 🎖️ Mission
 Generate a platform that is capable of helping hundreds of students to have a better life plan.
 
+## Tools
+- HTML
+- CSS
+
 ## 📖 What does it consist of?
 It consists of a platform which will help college students to determine areas of knowledge that really generate passion.
 
